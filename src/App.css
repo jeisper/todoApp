@@ -9,11 +9,11 @@
 body {
   background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(184, 238, 58) 0%,
+    rgb(42, 214, 30) 100%
   );
 }
-.todo-app {
+.note-app {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -37,25 +37,25 @@ h1 {
   opacity: 0.4;
 }
 
-.todo-form {
+.note-form {
   margin-bottom: 32px;
 }
 
-.todo-input {
+.note-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid #5d0cff;
+  border: 2px solid rgb(42, 214, 30);
   outline: none;
   width: 320px;
   background: transparent;
   color: #fff;
 }
 
-.todo-input::placeholder {
+.note-input::placeholder {
   color: #e2e2e2;
 }
 
-.todo-button {
+.note-button {
   padding: 16px;
   border: none;
   border-radius: 0 4px 4px 0;
@@ -63,33 +63,33 @@ h1 {
   outline: none;
   background: linear-gradient(
     90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
+    rgb(184, 238, 58) 0%,
+    rgb(42, 214, 30) 100%
   );
   color: #fff;
   text-transform: capitalize;
 }
 
-.todo-input.edit {
+.note-input.edit {
   border: 2px solid #149fff;
 }
 
-.todo-button.edit {
+.note-button.edit {
   background: linear-gradient(
     90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    rgb(184, 238, 58) 0%,
+    rgb(42, 214, 30) 100%
   );
   padding: 16px 22px;
 }
 
-.todo-container {
+.note-container {
   display: flex;
   flex-direction: row;
   position: relative;
 }
 
-.todo-row {
+.note-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,15 +106,15 @@ h1 {
   width: 90%;
 }
 
-.todo-row:nth-child(4n + 1) {
+.note-row:nth-child(4n + 1) {
   background: linear-gradient(
     90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
+    rgb(184, 238, 58) 0%,
+    rgb(42, 214, 30) 100%
   );
 }
 
-.todo-row:nth-child(4n + 2) {
+.note-row:nth-child(4n + 2) {
   background: linear-gradient(
     90deg,
     rgba(255, 12, 241, 1) 0%,
@@ -122,11 +122,11 @@ h1 {
   );
 }
 
-.todo-row:nth-child(4n + 3) {
+.note-row:nth-child(4n + 3) {
   background: linear-gradient(
     90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    rgb(184, 238, 58) 0%,
+    rgb(42, 214, 30) 100%
   );
 }
 
